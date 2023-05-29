@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  h3{
+      font-size: 2.4em;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      margin: 100px auto;
+    
+  }
+  
+  
+ 
+  .rectan {
+    background-color: rgb(181, 214, 14);
+    margin: 5% auto;
+    width: 400px;
+    height: 100px;
+ 
+  }
+  .squ {
+    background-color: rgb(181, 214, 14);
+    margin: 5% auto;
+    width: 180px;
+    height: 180px;
+    
+  }
+  
+  
+  
+  .circ {
+    background-color: rgb(181, 214, 14);
+    margin: 5% auto;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+  }
+  .trian {
+    margin: 5% auto;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 200px solid  rgb(181, 214, 14);
+    width: 0;
+    height: 0;
+  }
+  
+  .btn button {
+    border: 2px solid rgb(181, 214, 14);
+    margin: 8px 12px;
+    color: rgb(181, 214, 14);
+    font-size: 1.3rem;
+    background: none;
+    padding: 8px 15px;
+    border-radius: 2px;
+    transition: 0.5s;
+  }
+  
+  .btn button:hover {
+    background-color: rgb(181, 214, 14);
+    color: white;
+  }
+  
+  .btn button:active {
+    background-color: white;
+    color:rgb(181, 214, 14);
+   
+  }
